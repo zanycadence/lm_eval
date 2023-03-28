@@ -1,4 +1,4 @@
-defmodule LmEval.HellaSwag do
+defmodule LmEval.Repo.HellaSwag do
   @moduledoc """
   The HellaSwag dataset is used to train/evaluate a LM's ability to accurately predict sentence endings from a context.
 

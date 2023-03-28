@@ -1,4 +1,4 @@
-defmodule LmEval.PIQA do
+defmodule LmEval.Repo.PIQA do
   @moduledoc """
   Physical Interaction: Question Answering (PIQA) is a dataset used to train/evaluate a LM's physical knowledge.
 

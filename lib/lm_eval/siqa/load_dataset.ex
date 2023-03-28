@@ -3,7 +3,7 @@ defmodule LmEval.SIQA.LoadDataset do
   Helper functions to load the SIQA dataset into `LmEval.Repo`
   """
 
-  alias LmEval.SIQA
+  alias LmEval.Repo.SIQA
 
   def load_siqa_dataset(data_dir, "test") do
     tests_file_path = Path.join(data_dir, "/socialiqa-test/socialiqa.jsonl")

@@ -3,8 +3,7 @@ defmodule LmEval.PIQA.LoadDataset do
   Helper functions to load the PIQA dataset into `LmEval.Repo`
   """
 
-  alias LmEval.PIQA
-
+  alias LmEval.Repo.PIQA
 
   def load_piqa_dataset(data_dir, "tests") do
     tests_file_path = Path.join(data_dir, "tests.jsonl")

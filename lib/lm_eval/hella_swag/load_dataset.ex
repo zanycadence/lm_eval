@@ -2,7 +2,7 @@ defmodule LmEval.HellaSwag.LoadDataset do
   @moduledoc """
   Helper functions to load the hellaswag dataset into our `LmEval.Repo`
   """
-  alias LmEval.HellaSwag
+  alias LmEval.Repo.HellaSwag
 
   def load_hellaswag_data(data_dir) do
     ["hellaswag_train.jsonl", "hellaswag_test.jsonl", "hellaswag_val.jsonl"]

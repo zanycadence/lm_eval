@@ -1,4 +1,4 @@
-defmodule LmEval.SIQA do
+defmodule LmEval.Repo.SIQA do
   @moduledoc """
   Social Interaction QA (SIQA) is a benchmark for testing social commonsense intelligence.
 

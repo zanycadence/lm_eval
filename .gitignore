@@ -24,3 +24,6 @@ lm_eval-*.tar
 
 # Temporary files, for example, from tests.
 /tmp/
+
+# Editor files
+.vscode/
